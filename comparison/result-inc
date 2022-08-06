@@ -1,0 +1,1046 @@
+[info] welcome to sbt 1.4.7 (Private Build Java 11.0.15)
+[info] loading settings for project scala-native-autotest-build from plugins.sbt ...
+[info] loading project definition from /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/project
+[info] loading settings for project root from build.sbt ...
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class bounce.BounceBenchmark
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1528 ms)
+[info] Discovered 658 classes and 4749 methods
+[info] Optimizing (debug mode) (1244 ms)
+[info] Generating intermediate code (1399 ms)
+[info] Produced 37 files
+[info] Compiling to native code (5722 ms)
+[info] Linking native code (immix gc, none lto) (281 ms)
+[info] Total (10225 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (888 ms)
+[info] Discovered 658 classes and 4749 methods
+[info] Optimizing (debug mode) (568 ms)
+[info] Generating intermediate code (887 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4983 ms)
+[info] Linking native code (immix gc, none lto) (267 ms)
+[info] Total (7603 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (751 ms)
+[info] Discovered 658 classes and 4749 methods
+[info] Optimizing (debug mode) (409 ms)
+[info] Generating intermediate code (245 ms)
+[info] Produced 37 files
+[info] Compiling to native code (260 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (1940 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class brainfuck.BrainfuckBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (723 ms)
+[info] Discovered 678 classes and 4911 methods
+[info] Optimizing (debug mode) (392 ms)
+[info] Generating intermediate code (769 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1188 ms)
+[info] Linking native code (immix gc, none lto) (277 ms)
+[info] Total (3355 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (696 ms)
+[info] Discovered 678 classes and 4911 methods
+[info] Optimizing (debug mode) (377 ms)
+[info] Generating intermediate code (701 ms)
+[info] Produced 36 files
+[info] Compiling to native code (5020 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (7066 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (698 ms)
+[info] Discovered 678 classes and 4911 methods
+[info] Optimizing (debug mode) (353 ms)
+[info] Generating intermediate code (698 ms)
+[info] Produced 36 files
+[info] Compiling to native code (5059 ms)
+[info] Linking native code (immix gc, none lto) (264 ms)
+[info] Total (7079 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (739 ms)
+[info] Discovered 678 classes and 4911 methods
+[info] Optimizing (debug mode) (333 ms)
+[info] Generating intermediate code (225 ms)
+[info] Produced 36 files
+[info] Compiling to native code (274 ms)
+[info] Linking native code (immix gc, none lto) (264 ms)
+[info] Total (1841 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class cd.CDBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (806 ms)
+[info] Discovered 665 classes and 4491 methods
+[info] Optimizing (debug mode) (321 ms)
+[info] Generating intermediate code (669 ms)
+[info] Produced 37 files
+[info] Compiling to native code (1147 ms)
+[info] Linking native code (immix gc, none lto) (274 ms)
+[info] Total (3224 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (693 ms)
+[info] Discovered 665 classes and 4491 methods
+[info] Optimizing (debug mode) (359 ms)
+[info] Generating intermediate code (657 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4922 ms)
+[info] Linking native code (immix gc, none lto) (264 ms)
+[info] Total (6903 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (663 ms)
+[info] Discovered 665 classes and 4491 methods
+[info] Optimizing (debug mode) (340 ms)
+[info] Generating intermediate code (652 ms)
+[info] Produced 37 files
+[info] Compiling to native code (5083 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (7007 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (697 ms)
+[info] Discovered 665 classes and 4491 methods
+[info] Optimizing (debug mode) (254 ms)
+[info] Generating intermediate code (184 ms)
+[info] Produced 37 files
+[info] Compiling to native code (281 ms)
+[info] Linking native code (immix gc, none lto) (264 ms)
+[info] Total (1686 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class deltablue.DeltaBlueBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (686 ms)
+[info] Discovered 671 classes and 4497 methods
+[info] Optimizing (debug mode) (271 ms)
+[info] Generating intermediate code (705 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1031 ms)
+[info] Linking native code (immix gc, none lto) (272 ms)
+[info] Total (2972 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (649 ms)
+[info] Discovered 671 classes and 4497 methods
+[info] Optimizing (debug mode) (253 ms)
+[info] Generating intermediate code (607 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4777 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (6554 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (657 ms)
+[info] Discovered 671 classes and 4497 methods
+[info] Optimizing (debug mode) (247 ms)
+[info] Generating intermediate code (633 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4637 ms)
+[info] Linking native code (immix gc, none lto) (264 ms)
+[info] Total (6444 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] 5 deprecations (since 2.12.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (682 ms)
+[info] Discovered 671 classes and 4497 methods
+[info] Optimizing (debug mode) (275 ms)
+[info] Generating intermediate code (168 ms)
+[info] Produced 36 files
+[info] Compiling to native code (276 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (1673 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class gcbench.GCBenchBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] 5 deprecations (since 2.12.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (635 ms)
+[info] Discovered 637 classes and 4309 methods
+[info] Optimizing (debug mode) (235 ms)
+[info] Generating intermediate code (659 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1012 ms)
+[info] Linking native code (immix gc, none lto) (280 ms)
+[info] Total (2827 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (661 ms)
+[info] Discovered 637 classes and 4309 methods
+[info] Optimizing (debug mode) (296 ms)
+[info] Generating intermediate code (609 ms)
+[info] Produced 36 files
+[info] Compiling to native code (5064 ms)
+[info] Linking native code (immix gc, none lto) (260 ms)
+[info] Total (6895 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (640 ms)
+[info] Discovered 637 classes and 4309 methods
+[info] Optimizing (debug mode) (288 ms)
+[info] Generating intermediate code (598 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4860 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (6654 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (670 ms)
+[info] Discovered 637 classes and 4309 methods
+[info] Optimizing (debug mode) (262 ms)
+[info] Generating intermediate code (194 ms)
+[info] Produced 36 files
+[info] Compiling to native code (242 ms)
+[info] Linking native code (immix gc, none lto) (263 ms)
+[info] Total (1637 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class histogram.Histogram
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (772 ms)
+[info] Discovered 903 classes and 7378 methods
+[info] Optimizing (debug mode) (481 ms)
+[info] Generating intermediate code (1074 ms)
+[info] Produced 40 files
+[info] Compiling to native code (1275 ms)
+[info] Linking native code (immix gc, none lto) (291 ms)
+[info] Total (3898 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (767 ms)
+[info] Discovered 903 classes and 7378 methods
+[info] Optimizing (debug mode) (674 ms)
+[info] Generating intermediate code (1039 ms)
+[info] Produced 40 files
+[info] Compiling to native code (5189 ms)
+[info] Linking native code (immix gc, none lto) (288 ms)
+[info] Total (7963 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (773 ms)
+[info] Discovered 903 classes and 7378 methods
+[info] Optimizing (debug mode) (589 ms)
+[info] Generating intermediate code (1056 ms)
+[info] Produced 40 files
+[info] Compiling to native code (5230 ms)
+[info] Linking native code (immix gc, none lto) (282 ms)
+[info] Total (7936 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (838 ms)
+[info] Discovered 903 classes and 7378 methods
+[info] Optimizing (debug mode) (479 ms)
+[info] Generating intermediate code (294 ms)
+[info] Produced 40 files
+[info] Compiling to native code (245 ms)
+[info] Linking native code (immix gc, none lto) (281 ms)
+[info] Total (2144 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class json.JsonBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (701 ms)
+[info] Discovered 648 classes and 4383 methods
+[info] Optimizing (debug mode) (712 ms)
+[info] Generating intermediate code (648 ms)
+[info] Produced 37 files
+[info] Compiling to native code (1170 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (3503 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (639 ms)
+[info] Discovered 648 classes and 4383 methods
+[info] Optimizing (debug mode) (289 ms)
+[info] Generating intermediate code (605 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4891 ms)
+[info] Linking native code (immix gc, none lto) (273 ms)
+[info] Total (6705 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (644 ms)
+[info] Discovered 648 classes and 4383 methods
+[info] Optimizing (debug mode) (233 ms)
+[info] Generating intermediate code (644 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4999 ms)
+[info] Linking native code (immix gc, none lto) (271 ms)
+[info] Total (6800 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (643 ms)
+[info] Discovered 648 classes and 4383 methods
+[info] Optimizing (debug mode) (295 ms)
+[info] Generating intermediate code (161 ms)
+[info] Produced 37 files
+[info] Compiling to native code (257 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (1627 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class kmeans.KmeansBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (642 ms)
+[info] Discovered 655 classes and 4472 methods
+[info] Optimizing (debug mode) (238 ms)
+[info] Generating intermediate code (621 ms)
+[info] Produced 37 files
+[info] Compiling to native code (1027 ms)
+[info] Linking native code (immix gc, none lto) (269 ms)
+[info] Total (2804 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (637 ms)
+[info] Discovered 655 classes and 4472 methods
+[info] Optimizing (debug mode) (236 ms)
+[info] Generating intermediate code (632 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4886 ms)
+[info] Linking native code (immix gc, none lto) (268 ms)
+[info] Total (6665 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (655 ms)
+[info] Discovered 655 classes and 4472 methods
+[info] Optimizing (debug mode) (228 ms)
+[info] Generating intermediate code (588 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4814 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (6554 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (647 ms)
+[info] Discovered 655 classes and 4472 methods
+[info] Optimizing (debug mode) (305 ms)
+[info] Generating intermediate code (158 ms)
+[info] Produced 37 files
+[info] Compiling to native code (253 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (1631 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class list.ListBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (645 ms)
+[info] Discovered 638 classes and 4302 methods
+[info] Optimizing (debug mode) (224 ms)
+[info] Generating intermediate code (600 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1046 ms)
+[info] Linking native code (immix gc, none lto) (268 ms)
+[info] Total (2789 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (641 ms)
+[info] Discovered 638 classes and 4302 methods
+[info] Optimizing (debug mode) (239 ms)
+[info] Generating intermediate code (577 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4805 ms)
+[info] Linking native code (immix gc, none lto) (259 ms)
+[info] Total (6528 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (637 ms)
+[info] Discovered 638 classes and 4302 methods
+[info] Optimizing (debug mode) (235 ms)
+[info] Generating intermediate code (585 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4672 ms)
+[info] Linking native code (immix gc, none lto) (259 ms)
+[info] Total (6395 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (629 ms)
+[info] Discovered 638 classes and 4302 methods
+[info] Optimizing (debug mode) (298 ms)
+[info] Generating intermediate code (161 ms)
+[info] Produced 36 files
+[info] Compiling to native code (244 ms)
+[info] Linking native code (immix gc, none lto) (258 ms)
+[info] Total (1598 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class mandelbrot.MandelbrotBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (656 ms)
+[info] Discovered 636 classes and 4293 methods
+[info] Optimizing (debug mode) (223 ms)
+[info] Generating intermediate code (615 ms)
+[info] Produced 36 files
+[info] Compiling to native code (964 ms)
+[info] Linking native code (immix gc, none lto) (259 ms)
+[info] Total (2722 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (628 ms)
+[info] Discovered 636 classes and 4293 methods
+[info] Optimizing (debug mode) (224 ms)
+[info] Generating intermediate code (579 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4717 ms)
+[info] Linking native code (immix gc, none lto) (261 ms)
+[info] Total (6416 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (644 ms)
+[info] Discovered 636 classes and 4293 methods
+[info] Optimizing (debug mode) (227 ms)
+[info] Generating intermediate code (572 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4611 ms)
+[info] Linking native code (immix gc, none lto) (273 ms)
+[info] Total (6334 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (632 ms)
+[info] Discovered 636 classes and 4293 methods
+[info] Optimizing (debug mode) (317 ms)
+[info] Generating intermediate code (150 ms)
+[info] Produced 36 files
+[info] Compiling to native code (248 ms)
+[info] Linking native code (immix gc, none lto) (272 ms)
+[info] Total (1626 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class nbody.NbodyBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (688 ms)
+[info] Discovered 659 classes and 4760 methods
+[info] Optimizing (debug mode) (258 ms)
+[info] Generating intermediate code (653 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1084 ms)
+[info] Linking native code (immix gc, none lto) (268 ms)
+[info] Total (2957 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (651 ms)
+[info] Discovered 659 classes and 4760 methods
+[info] Optimizing (debug mode) (239 ms)
+[info] Generating intermediate code (626 ms)
+[info] Produced 36 files
+[info] Compiling to native code (5023 ms)
+[info] Linking native code (immix gc, none lto) (266 ms)
+[info] Total (6812 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (647 ms)
+[info] Discovered 659 classes and 4760 methods
+[info] Optimizing (debug mode) (233 ms)
+[info] Generating intermediate code (639 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4836 ms)
+[info] Linking native code (immix gc, none lto) (268 ms)
+[info] Total (6629 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (748 ms)
+[info] Discovered 659 classes and 4760 methods
+[info] Optimizing (debug mode) (273 ms)
+[info] Generating intermediate code (191 ms)
+[info] Produced 36 files
+[info] Compiling to native code (249 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (1735 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class permute.PermuteBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (629 ms)
+[info] Discovered 646 classes and 4442 methods
+[info] Optimizing (debug mode) (237 ms)
+[info] Generating intermediate code (636 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1001 ms)
+[info] Linking native code (immix gc, none lto) (263 ms)
+[info] Total (2772 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (633 ms)
+[info] Discovered 646 classes and 4442 methods
+[info] Optimizing (debug mode) (232 ms)
+[info] Generating intermediate code (595 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4490 ms)
+[info] Linking native code (immix gc, none lto) (259 ms)
+[info] Total (6214 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (658 ms)
+[info] Discovered 646 classes and 4442 methods
+[info] Optimizing (debug mode) (232 ms)
+[info] Generating intermediate code (602 ms)
+[info] Produced 36 files
+[info] Compiling to native code (5001 ms)
+[info] Linking native code (immix gc, none lto) (268 ms)
+[info] Total (6768 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (636 ms)
+[info] Discovered 646 classes and 4442 methods
+[info] Optimizing (debug mode) (309 ms)
+[info] Generating intermediate code (161 ms)
+[info] Produced 36 files
+[info] Compiling to native code (241 ms)
+[info] Linking native code (immix gc, none lto) (266 ms)
+[info] Total (1619 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class queens.QueensBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (658 ms)
+[info] Discovered 643 classes and 4329 methods
+[info] Optimizing (debug mode) (240 ms)
+[info] Generating intermediate code (600 ms)
+[info] Produced 37 files
+[info] Compiling to native code (1053 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (2821 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (630 ms)
+[info] Discovered 643 classes and 4329 methods
+[info] Optimizing (debug mode) (239 ms)
+[info] Generating intermediate code (582 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4635 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (6358 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (633 ms)
+[info] Discovered 643 classes and 4329 methods
+[info] Optimizing (debug mode) (215 ms)
+[info] Generating intermediate code (577 ms)
+[info] Produced 37 files
+[info] Compiling to native code (4697 ms)
+[info] Linking native code (immix gc, none lto) (265 ms)
+[info] Total (6394 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (647 ms)
+[info] Discovered 643 classes and 4329 methods
+[info] Optimizing (debug mode) (307 ms)
+[info] Generating intermediate code (156 ms)
+[info] Produced 37 files
+[info] Compiling to native code (246 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (1623 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class richards.RichardsBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (672 ms)
+[info] Discovered 647 classes and 4377 methods
+[info] Optimizing (debug mode) (241 ms)
+[info] Generating intermediate code (600 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1039 ms)
+[info] Linking native code (immix gc, none lto) (259 ms)
+[info] Total (2816 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (634 ms)
+[info] Discovered 647 classes and 4377 methods
+[info] Optimizing (debug mode) (245 ms)
+[info] Generating intermediate code (594 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4761 ms)
+[info] Linking native code (immix gc, none lto) (260 ms)
+[info] Total (6499 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (629 ms)
+[info] Discovered 647 classes and 4377 methods
+[info] Optimizing (debug mode) (243 ms)
+[info] Generating intermediate code (707 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4763 ms)
+[info] Linking native code (immix gc, none lto) (260 ms)
+[info] Total (6610 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (678 ms)
+[info] Discovered 647 classes and 4377 methods
+[info] Optimizing (debug mode) (235 ms)
+[info] Generating intermediate code (174 ms)
+[info] Produced 36 files
+[info] Compiling to native code (249 ms)
+[info] Linking native code (immix gc, none lto) (264 ms)
+[info] Total (1607 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class rsc.RscBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1160 ms)
+[info] Discovered 1614 classes and 13748 methods
+[info] Optimizing (debug mode) (897 ms)
+[info] Generating intermediate code (2138 ms)
+[info] Produced 61 files
+[info] Compiling to native code (1841 ms)
+[info] Linking native code (immix gc, none lto) (350 ms)
+[info] Total (6394 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1135 ms)
+[info] Discovered 1614 classes and 13748 methods
+[info] Optimizing (debug mode) (890 ms)
+[info] Generating intermediate code (1987 ms)
+[info] Produced 61 files
+[info] Compiling to native code (5757 ms)
+[info] Linking native code (immix gc, none lto) (351 ms)
+[info] Total (10127 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1153 ms)
+[info] Discovered 1614 classes and 13748 methods
+[info] Optimizing (debug mode) (960 ms)
+[info] Generating intermediate code (2038 ms)
+[info] Produced 61 files
+[info] Compiling to native code (5570 ms)
+[info] Linking native code (immix gc, none lto) (345 ms)
+[info] Total (10074 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1178 ms)
+[info] Discovered 1614 classes and 13748 methods
+[info] Optimizing (debug mode) (832 ms)
+[info] Generating intermediate code (546 ms)
+[info] Produced 61 files
+[info] Compiling to native code (259 ms)
+[info] Linking native code (immix gc, none lto) (348 ms)
+[info] Total (3171 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class rsc.cli.Main
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1141 ms)
+[info] Discovered 1611 classes and 13733 methods
+[info] Optimizing (debug mode) (904 ms)
+[info] Generating intermediate code (2035 ms)
+[info] Produced 60 files
+[info] Compiling to native code (2136 ms)
+[info] Linking native code (immix gc, none lto) (345 ms)
+[info] Total (6568 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1120 ms)
+[info] Discovered 1611 classes and 13733 methods
+[info] Optimizing (debug mode) (884 ms)
+[info] Generating intermediate code (2008 ms)
+[info] Produced 60 files
+[info] Compiling to native code (5780 ms)
+[info] Linking native code (immix gc, none lto) (352 ms)
+[info] Total (10164 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1127 ms)
+[info] Discovered 1611 classes and 13733 methods
+[info] Optimizing (debug mode) (909 ms)
+[info] Generating intermediate code (2030 ms)
+[info] Produced 60 files
+[info] Compiling to native code (5766 ms)
+[info] Linking native code (immix gc, none lto) (433 ms)
+[info] Total (10272 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (1209 ms)
+[info] Discovered 1611 classes and 13733 methods
+[info] Optimizing (debug mode) (1204 ms)
+[info] Generating intermediate code (613 ms)
+[info] Produced 60 files
+[info] Compiling to native code (264 ms)
+[info] Linking native code (immix gc, none lto) (340 ms)
+[info] Total (3642 ms)
+[success] Total time: 62 s (01:02), completed Aug 5, 2022, 2:06:29 AM
+test main class sudoku.SudokuBenchmark
+TRANSITION PHASE
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (697 ms)
+[info] Discovered 763 classes and 5486 methods
+[info] Optimizing (debug mode) (323 ms)
+[info] Generating intermediate code (801 ms)
+[info] Produced 40 files
+[info] Compiling to native code (1324 ms)
+[info] Linking native code (immix gc, none lto) (287 ms)
+[info] Total (3440 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (698 ms)
+[info] Discovered 763 classes and 5486 methods
+[info] Optimizing (debug mode) (314 ms)
+[info] Generating intermediate code (759 ms)
+[info] Produced 40 files
+[info] Compiling to native code (5377 ms)
+[info] Linking native code (immix gc, none lto) (283 ms)
+[info] Total (7437 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (739 ms)
+[info] Discovered 763 classes and 5486 methods
+[info] Optimizing (debug mode) (405 ms)
+[info] Generating intermediate code (934 ms)
+[info] Produced 40 files
+[info] Compiling to native code (4825 ms)
+[info] Linking native code (immix gc, none lto) (274 ms)
+[info] Total (7184 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (720 ms)
+[info] Discovered 763 classes and 5486 methods
+[info] Optimizing (debug mode) (724 ms)
+[info] Generating intermediate code (212 ms)
+[info] Produced 40 files
+[info] Compiling to native code (258 ms)
+[info] Linking native code (immix gc, none lto) (271 ms)
+[info] Total (2191 ms)
+[info] set current project to scala-native-benchmarks (in build file:/mnt/d/study/EPFL/course/gsoc/scala-native-autotest/)
+test main class tracer.TracerBenchmark
+TRANSITION PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (681 ms)
+[info] Discovered 662 classes and 4460 methods
+[info] Optimizing (debug mode) (217 ms)
+[info] Generating intermediate code (623 ms)
+[info] Produced 36 files
+[info] Compiling to native code (1029 ms)
+[info] Linking native code (immix gc, none lto) (262 ms)
+[info] Total (2818 ms)
+WARM UP PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (650 ms)
+[info] Discovered 662 classes and 4460 methods
+[info] Optimizing (debug mode) (226 ms)
+[info] Generating intermediate code (676 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4949 ms)
+[info] Linking native code (immix gc, none lto) (259 ms)
+[info] Total (6766 ms)
+COMPILE PHASE
+[info] compiling 146 Scala sources to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[warn] one deprecation (since 2.11.0)
+[warn] 5 deprecations (since 2.12.0)
+[warn] 6 deprecations in total; re-run with -deprecation for details
+[warn] three warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (682 ms)
+[info] Discovered 662 classes and 4460 methods
+[info] Optimizing (debug mode) (230 ms)
+[info] Generating intermediate code (597 ms)
+[info] Produced 36 files
+[info] Compiling to native code (4701 ms)
+[info] Linking native code (immix gc, none lto) (273 ms)
+[info] Total (6489 ms)
+EDIT PHASE
+[info] compiling 1 Scala source to /mnt/d/study/EPFL/course/gsoc/scala-native-autotest/target/scala-2.12/classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Linking (690 ms)
+[info] Discovered 662 classes and 4460 methods
+[info] Optimizing (debug mode) (229 ms)
+[info] Generating intermediate code (185 ms)
+[info] Produced 36 files
+[info] Compiling to native code (264 ms)
+[info] Linking native code (immix gc, none lto) (279 ms)
+[info] Total (1654 ms)
+[success] Total time: 645 s (10:45), completed Aug 5, 2022, 2:01:25 AM

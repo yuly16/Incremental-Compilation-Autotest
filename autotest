@@ -1,0 +1,93 @@
+set -e
+
+# default parameter
+scala=2.12.16;
+scala_native=0.5.0-SNAPSHOT;
+benchmark_list=();
+inputDir=input;
+outputDir=output;
+binaryDir=binaries;
+
+print_usage() {
+    echo "Usage: benchmarkNative --scala SCALA-VERSION --scala-native SCALA-NATIVE-VERSION --benchmark-list <benchmarks list or non to run all>"
+}
+
+create_benchmark_format_string() {
+    benchmark_format_string=""
+    for benchmark in "${benchmark_list[@]}"
+    do
+        benchmark_format_string+="\""
+        benchmark_format_string+=$benchmark
+        benchmark_format_string+="\","
+    done
+    if [ ${#benchmark_list[@]} -ne 0 ]; then
+        benchmark_format_string=${benchmark_format_string::-1} 
+    fi
+    
+    echo $benchmark_format_string
+}
+
+# phase 1: parsing arguments
+while true; do
+  arg=$1
+  if [ -z $arg ]; then
+      break
+  fi
+  shift
+  case "$arg" in
+    '--scala') 
+        scala=$1   
+        shift ;;
+    '--scala-native')   
+        scala_native=$1
+        shift ;;
+    '--benchmark-list') 
+        element=$1
+        while [ ! -z $element ] && [ $element != '--scala' ] && 
+            [ $element != '--scala-native' ]; do
+            benchmark_list+=("$element")
+            shift
+            element=$1
+        done ;;
+    *)          
+        print_usage
+        exit ;;
+  esac
+done
+
+echo "scala version: $scala" 
+echo "scala native version: $scala_native" 
+if [ ${#benchmark_list[@]} -eq 0 ]; then
+    echo "benchmark list: all benchmarks"
+else
+    echo "benchmark list: ${benchmark_list[*]}"
+fi
+
+# phase 2: generate sbt template
+cp -r templates/* ./
+sed -i "s/SCALA-VERSION-TEMPLATE/$scala/g" build.sbt
+sed -i "s/SCALA-NATIVE-VERSION-TEMPLATE/$scala_native/g" project/plugins.sbt
+
+benchmark_format_string=$(create_benchmark_format_string)
+# echo $benchmark_format_string
+sed -i "s/MAINCLASS-LIST-TEMPLATE/$benchmark_format_string/g" build.sbt
+# phase 3: test our benchmark
+env JAVA_OPTS="-Xmx4G" sbt measureLink > result
+
+echo "compile finish!"
+# phase 4: test the correctness of binaries
+
+for bin in `ls $binaryDir`
+do
+    benchmark_name=${bin%-*}
+    if [ ${benchmark_name} != "rsc.cli.Main" ]; then
+        input=$(< ${inputDir}/${benchmark_name})
+        output=$(< ${outputDir}/${benchmark_name})
+
+        ${binaryDir}/${bin} 1 1 "${input}" "$output" > null
+    else 
+        ${binaryDir}/${bin} ${inputDir}/rsc/* > null
+    fi
+done
+
+echo "test binaries finish!"

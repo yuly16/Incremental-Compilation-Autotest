@@ -1,0 +1,6 @@
+target/
+.vscode
+.metals
+null
+result
+build.sbt
