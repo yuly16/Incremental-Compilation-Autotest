@@ -17,8 +17,11 @@ import java.lang.String
 import scala.{Int, Boolean, Unit, Option, Some, None, Nil}
 
 object SudokuBenchmark extends communitybench.Benchmark {
-  override def run(input: String): Option[Grid] =
+  override def run(input: String): Option[Grid] = {
+    val modify = "modified"
+    System.out.println(modify)
     solve(input)
+  }
 
   override def main(args: Array[String]): Unit =
     super.main(args)

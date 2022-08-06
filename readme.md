@@ -1,5 +1,10 @@
 ## Scala Native Incremental Compilation Autotest
 
+
+### Requirement
+Linux environment, sbt, python3. 
+
+I test the script in wsl Ubuntu, sbt 1.6.1 and python 3.8. The package `regex` and `pandas` are required. In the python script, I use `regex` instead of `re` to do the pattern matching, since `re` doesn't support the variable width of lookahead regex. 
 ### Usage
 
 Run the command

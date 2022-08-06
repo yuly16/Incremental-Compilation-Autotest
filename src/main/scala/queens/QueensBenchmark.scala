@@ -33,8 +33,6 @@ object QueensBenchmark extends communitybench.Benchmark {
   var queenRows: Array[Int]    = _
 
   def run(input: String): Boolean = {
-    val modify = "modified"
-    System.out.println(modify)
     freeRows = Array.fill(8)(true)
     freeMaxs = Array.fill(16)(true)
     freeMins = Array.fill(16)(true)

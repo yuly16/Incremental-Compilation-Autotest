@@ -31,8 +31,11 @@ import java.lang.String
 import scala.{Int, Unit, Char, Array}
 
 object BrainfuckBenchmark extends communitybench.Benchmark {
-  def run(input: String): Int =
+  def run(input: String): Int = {
+    val modify = "modified"
+    System.out.println(input)
     new Program(input).run.size
+  }
 
   override def main(args: Array[String]): Unit =
     super.main(args)

@@ -2,7 +2,7 @@ set -e
 
 # default parameter
 scala=2.12.16;
-scala_native=0.5.0-SNAPSHOT;
+scala_native=0.5.0-SNAPSHOT-INC-COMP;
 benchmark_list=();
 inputDir=input;
 outputDir=output;
@@ -90,4 +90,9 @@ do
     fi
 done
 
+rm null
 echo "test binaries finish!"
+
+# phase 5: generate csv
+python3 scripts/generate_csv.py
+

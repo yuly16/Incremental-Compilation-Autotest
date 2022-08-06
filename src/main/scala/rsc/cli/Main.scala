@@ -8,6 +8,8 @@ import rsc.settings._
 
 object Main {
   def main(args: Array[String]): Unit = {
+    val modify = "modify"
+    System.out.println(modify)
     run(args)
   }
 

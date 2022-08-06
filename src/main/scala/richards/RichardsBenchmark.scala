@@ -56,8 +56,6 @@ object RichardsBenchmark extends communitybench.Benchmark {
   import Richards._
 
   def run(input: String): (Int, Int) = {
-    val modify = "modified"
-    System.out.println(modify)
     val scheduler = new Scheduler()
     scheduler.addIdleTask(ID_IDLE, 0, null, COUNT)
 

@@ -33,11 +33,8 @@ object TracerBenchmark extends communitybench.Benchmark {
     renderReflections = true
   )
 
-  def run(input: String): Unit = {
-    val modify = "modified"
-    System.out.println(modify)
+  def run(input: String): Unit =
     new RenderScene().renderScene(config, null)
-  }
 
   override def main(args: Array[String]): Unit =
     super.main(args)
