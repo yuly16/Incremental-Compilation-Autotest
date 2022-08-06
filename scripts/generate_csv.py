@@ -67,7 +67,7 @@ def main():
     is_first = True
     measurement = Measurement()
 
-    with open("result", "r") as f:
+    with open("comparison/result-baseline", "r") as f:
         f_lines = f.readlines()
         for line in f_lines:
             res = parse(line.strip())

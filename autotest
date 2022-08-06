@@ -2,7 +2,7 @@ set -e
 
 # default parameter
 scala=2.12.16;
-scala_native=0.5.0-SNAPSHOT-INC-COMP;
+scala_native=0.5.0-SNAPSHOT;
 benchmark_list=();
 inputDir=input;
 outputDir=output;
